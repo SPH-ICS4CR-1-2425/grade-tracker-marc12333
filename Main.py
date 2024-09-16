@@ -5,12 +5,14 @@
 #Main Menu function
 def menu():
     pass
-
+print("1. Add a class")
+print("2. Add a a grade to a particular class")
+print("3. Show the grades for a given class")
 #Add a class function
 def addClass():
     pass
 
-#Add a grade to a particular clss
+#Add a grade to a particular calss
 def addGrade():
     pass
 
@@ -30,3 +32,6 @@ def showAverage():
 def overallAverage():
     pass
 
+
+wantQuit = False
+while not wantQuit:
